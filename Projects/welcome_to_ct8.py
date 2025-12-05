@@ -9,9 +9,10 @@ print("\n\n")
 print("This area is called the TERMINAL.")
 print("It shows messages and errors.")
 print("You also can type in the terminal.")
-name = input("\n---Type your name here, then press Enter---\n")
+name = will
 
 print("\n\n")
+
 print(r"  _____ ____  __  __ _____    _______ _    _ _____ _   _ _  _______ _   _  _____    ___  ")
 print(r" / ____/ __ \|  \/  |  __ \  |__   __| |  | |_   _| \ | | |/ /_   _| \ | |/ ____|  / _ \ ")
 print(r"| |   | |  | | \  / | |__) |    | |  | |__| | | | |  \| | ' /  | | |  \| | |  __  | (_) |")
@@ -21,10 +22,11 @@ print(r" \_____\____/|_|  |_|_|         |_|  |_|  |_|_____|_| \_|_|\_\_____|_| \
 # text art from https://patorjk.com/software/taag/
 
 
-print(f"This codespace belongs to {name}")
+
+print(f"This codespace belongs to {will}")
 print("\n\n")
                                                                                           
                                                                                           
                                   
 print("Now it's your turn:")
-print("Find this line (line 30) in the welcome_to_ct8.py file, then change the message to say a fact about you.")                                  
+print("I AM DOMER FROM AGARTHA")                                  
