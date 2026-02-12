@@ -1,7 +1,7 @@
 import turtle, time, random
 from utils import *
 
-set_background(cookie1)
+set_background("cookie1")
 
 cookies = 0
 jars = 0
@@ -13,13 +13,22 @@ def get_cookies():
     cookies += 1
     x = random.randint(-200,200)
     y = random.randint(-200,200)
-    create_sprite("cardinal3",x,y)
-window.onkeypress(get_cookie, "space")
-window.onkeypress(get_jar, "c")
+    create_sprite("cookie",x,y)
+window.onkeypress("get_cookie", "space")
 
 
 
 
+
+def buy_jar():
+    global cookies, jars
+    if cookies >= 50:
+        jar += 1
+        cookies -= 50
+        x = random.randint(-200,200)
+        y = random.randint(-200,200)
+        create_sprite("cookiejar.gif",x,y)
+window.onkeypress(buy_jar, "c")
 
 # Section 3 - game loop
 window.listen()
