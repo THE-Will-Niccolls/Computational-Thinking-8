@@ -21,7 +21,7 @@ def get_cookiejar():
         y = -250
         create_sprite("cookiejar.gif",x,y)
 
-window.onkeypress(get_cookiejar, "c")
+window.onkeypress(get_cookiejar, "space")
 
 def get_cookie():
     global cookie
@@ -30,7 +30,7 @@ def get_cookie():
     y = random.randint(-200,200)
     create_sprite("cookie",x, y)
 
-window.onkeypress(get_cookie, "p")
+window.onkeypress(get_cookie, "c")
 
 # Section 3 - game loop
 window.listen()
