@@ -14,7 +14,7 @@ cost = 15
 
 def get_cookiejar():
     global cookie, cookiejar, cost
-    if cookie >= cost:15
+    if cookie >= cost:
         cost = cost * 2
         cookiejar += 1
         x = -400 + 120*cookiejar
